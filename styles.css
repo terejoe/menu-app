@@ -300,3 +300,72 @@ img{
   border-bottom: none;
 }
 
+/* Dessert Menu Page */
+.dessert-menu{
+  width: fit-content;
+  height:fit-content;
+  margin: 0 auto;
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  border-radius: 10px; 
+  background-image: url('media/pizza.jpg');
+  padding: 1%;
+  color: white;
+}
+
+.snacks{
+  display:flex
+}
+
+.dessert-imgs{
+  margin-right: 10px;
+}
+
+.dessert-one{
+  width: 150px;
+  height: 300px;
+}
+
+.dessert-two{
+  width: 150px;
+  height: 300px;
+  margin-top: 6px;
+}
+
+
+.snack-menu{
+  border: 2px solid white;
+  padding: 10px;
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.snack-menu h3{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  
+}
+
+.snack{
+  margin-top: 15px;
+}
+.snack-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.snack-list h3{
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.snack-list p{
+  font-weight: bolder;
+  font-size: 12px;
+}
+
