@@ -79,7 +79,6 @@ img{
   border-radius: 0 0 0 8%;
 }
 
-
 .photo-menu{
   border-radius: 4% 0 0 4%;
 }
@@ -307,7 +306,7 @@ img{
   margin: 0 auto;
   position: absolute;
   top: 12%;
-  left: 35%;
+  left: 25%;
   border-radius: 10px; 
   background-image: url('media/pizza.jpg');
   padding: 1%;
@@ -369,3 +368,103 @@ img{
   font-size: 12px;
 }
 
+/*Media Queries*/
+@media(max-width:1200px){
+  .header {
+    overflow-x:hidden;
+    overflow-y:hidden;
+  }
+
+  .main-menu{
+    left: 15%;
+  }
+
+  /* Starter Menu Page */
+  .column{
+    gap: 50px;
+    padding: 30px ;
+  }
+
+  /* Drinks Menu Page */
+  .drinks-menu{
+    margin: 15px;
+    top: 10%;
+    padding: 3%;
+  }
+  
+  .drinks-list{
+    height: 6rem;
+  }
+    
+}
+
+@media(max-width:768px) {
+  .header {
+    overflow-x:hidden;
+  }
+
+  .header-text{
+    padding: 3%;
+  }
+  
+  .header-text-link{
+    padding: 2%;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-indent: 2px;
+  }
+
+  nav ul li{
+    width: 80px;
+  }
+
+  .main-menu{
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .photo-menu img{
+    display: none;
+  }
+
+  .price-menu{
+    padding: 10px 20px;
+    border-radius: 4%;
+    width: 320px;
+  }
+
+  /* Starter Menu Page */
+  .starter-menu{
+    left: 3%;
+  }
+  
+  .column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    padding: 12px 30px ;
+  }
+
+  /* Drinks Menu Page */
+  .drinks-menu{
+    margin: 15px;
+    top: 10%;
+    left: 0;
+    padding: 3%;
+  }
+  
+  .drinks-list{
+    height: 6rem;
+  }
+
+  /* Dessert Menu Page */
+  .dessert-menu{
+    left: 5%;
+  }
+  .snack-menu{
+    width: 200px;
+  }
+    
+}
